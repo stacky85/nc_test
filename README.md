@@ -18,9 +18,9 @@ Having puppet and the module for nginx installed on the VM I've created the foll
 
 **How to use/test these manifests:**
 
-On the VM with Arch Linux the manifests are stored in /etc/puppetlabs/code/manifests
+On the VM with Arch Linux the manifests are stored in `/etc/puppetlabs/code/manifests`
 
-On the VM with CentOS 8 the manifests are stored in /etc/puppetlabs/code/environments/production/manifests
+On the VM with CentOS 8 the manifests are stored in `/etc/puppetlabs/code/environments/production/manifests`
 
 Apply the manifests (copy the manfiests in the path and navigate to manifests path or give full path when doing apply):
 
