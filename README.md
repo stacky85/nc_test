@@ -24,11 +24,13 @@ On the VM with CentOS 8 the manifests are stored in /etc/puppetlabs/code/environ
 
 Apply the manifests (copy the manfiests in the path and navigate to manifests path or give full path when doing apply):
 
-puppet apply task1.pp  (this will run on the local VM)
+`puppet apply task1.pp`  (this will run on the local VM)
 
 Outcome will be a nginx vhost configured as requested in the task
 
-puppet apply task2.pp (this will run on the local VM)
+**I have used a self signed SSL certificate**
+
+`puppet apply task2.pp` (this will run on the local VM)
 
 Outcome will be a nginx vhost configured as requested in the task
 
